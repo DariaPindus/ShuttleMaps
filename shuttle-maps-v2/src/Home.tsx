@@ -4,7 +4,6 @@ import {useAsync} from 'react-use';
 import UserNavigation from './navigation/UserNavigation';
 import styled from 'styled-components';
 import { getRoutes } from './api/RoutesApi';
-import { MapRoute } from './map/MapRoute';
 
 const Body = styled.div`
 display: flex;
